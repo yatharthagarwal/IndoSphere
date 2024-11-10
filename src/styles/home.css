@@ -1,0 +1,16 @@
+#hero-image {
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#welome-text {
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

@@ -1,0 +1,103 @@
+#understanding-causes {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .causes-layout {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .column h3 {
+    margin-top: 0;
+  }
+  
+  .column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .column li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .column img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .brief-analysis {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+.impacts-icons {
+  border-style: groove;
+  padding: 5px;
+}
+
+.content {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.brief-analysis {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 20px auto;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.brief-analysis:hover {
+  transform: scale(1.05); /* Enlarges the container slightly on hover */
+}
+
+.brief-analysis h4 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.brief-analysis p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.brief-analysis::before {
+  content: "🌟";
+  font-size: 2rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #ff9800;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.brief-analysis:hover::before {
+  opacity: 1; /* Icon appears on hover */
+}
