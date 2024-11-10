@@ -1,0 +1,262 @@
+.forest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px dotted black;
+    box-sizing: border-box;
+}
+
+.forest-chart-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust to fit content */
+    background-color: #1b6205;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevents content overflow */
+    box-sizing: border-box;
+    margin: 15px auto auto 5px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 15px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding-right: 10px; /* Adds padding on the right to avoid spillover */
+    overflow-wrap: break-word; /* Ensures long words don’t spill */
+  }
+
+  .biodiversity-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .species-card {
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .species-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .species-card p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #3e3e3e;
+  }
+  
+  .ecosystem-services {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  .ecosystem-services img {
+    width: 200px;
+    height: 120px;
+  }
+
+  .species-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .species-card:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    white-space: normal; /* Allows wrapping of text */
+    min-width: 100px; /* Minimum width */
+    max-width: 300px; /* Optional: prevents tooltip from becoming too wide */
+    text-align: center;
+    word-wrap: break-word; /* Ensures text wraps inside the tooltip */
+    z-index: 10; /* Makes sure the tooltip appears above other content */
+}
+
+  
+  .popular-species {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popular-species h5 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #2e6a3e;
+  }
+  
+  .biodiversity-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding-top: 10px;
+  }
+  
+  .service-card-forest-row {
+    margin-bottom: 20px;
+    justify-content: center; /* Center content horizontally */
+}
+
+.service-card-forest {
+    background-color: #f2f2e9; /* Light, natural color */
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out;
+}
+
+.service-card-forest:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.service-card-forest img {
+    width: 140px; /* Adjust size as needed */
+    height: auto;
+    margin-top: 10px;
+}
+
+.service-card-forest p {
+    font-size: 1.1rem;
+    color: #4a634f; /* Earthy green tone */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-card-forest-row:nth-child(odd) .service-card-forest {
+    background-color: #e9f5f2; /* Alternate background color for rows */
+}
+
+@media (min-width: 768px) {
+    .service-card-forest img {
+        width: 80px;
+    }
+}
+
+#title-services {
+    font-size: 1.2rem;
+    color: #3c5d4b; /* Earthy green tone */
+    font-weight: 600; /* Semi-bold for emphasis */
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 4px solid #83a47e; /* Add a green left border for accent */
+}
+
+#forest {
+    font-size: 1.5rem;
+    color: #3c5d4b; /* Earthy Green for headings */
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Paragraph Style */
+#forest-para {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4a4a4a; /* Dark gray for readability */
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+/* Bold text for key phrases */
+b {
+    color: #4a4a4a; /* Slightly darker shade to make bold text stand out */
+}
+
+/* Container or Section for grouping */
+.section-container {
+    margin: 20px auto;
+    max-width: 800px; /* Center the content */
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adds spacing between different sections */
+.section-container > h3:first-of-type {
+    margin-top: 0;
+}
+
+.section-container > p {
+    margin-top: 10px;
+}
+
+/* Forest Content Styling */
+.forest-content {
+  background-color: #e8f5e9; /* Light green background to match forest theme */
+  border-left: 4px solid #388e3c; /* Dark green accent border */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark text for readability */
+  font-family: Arial, sans-serif;
+  line-height: 1.6em;
+}
+
+/* List Item Styling */
+.forest-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.forest-content li {
+  background: #ffffff; /* White background for each list item */
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forest-content li b {
+  color: #388e3c; /* Dark green color for bold labels */
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .forest-content {
+      font-size: 0.9rem;
+      padding: 15px;
+  }
+}

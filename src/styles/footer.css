@@ -1,0 +1,35 @@
+.footer {
+    display: block;
+    /* margin: 40px auto auto; */
+    margin-top: auto;
+    padding: 10px;
+    /* width: 80%; */
+    background-color: #3E4E50;
+}
+
+.link-section {
+    display: block;
+    width: 30%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disclaimer {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #D3D3D3;
+}
+
+.link {
+    color: #00ACC1;
+    font-size: large;
+}
+
+.link:hover {
+    color: #FFB300 !important; /* Slightly darker yellow for hover effect */
+    cursor: pointer !important; /* Add pointer on hover */
+  }
