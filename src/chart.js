@@ -185,7 +185,7 @@ export const weatherOptions = {
         },
         title: {
             display: true,
-            text: "Average Mean Surface Air Temprature"
+            text: "Average Surface Air Temprature"
         }
     },
     scales: {
@@ -330,7 +330,7 @@ export const forestLossDriversOptions = {
         title: {
             display: true,
             color: '#ffffff',
-            text: "Greehouse Emissions"
+            text: "Forest Loss Drivers"
         }
     },
     scales: {

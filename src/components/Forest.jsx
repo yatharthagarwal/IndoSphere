@@ -38,7 +38,7 @@ function Forest() {
                     <p className='forest-content'>
                         <ul>
                             <li><b>Overall Trend:</b>  Emissions have varied greatly, with a noticeable pattern of peaks and declines over the years.</li>
-                            <li><b>Peak Years:</b> Emissions reached their highest points around 2013, 2016, and again slightly in the earlier 2009–2010 period, where emissions exceeded 1.6 billion metric tons.</li>
+                            <li><b>Peak Years:</b> Emissions reached their highest points around 2012, 2016, and again slightly in the earlier 2009–2010 period, where emissions exceeded 1.6 billion metric tons.</li>
                             <li><b>Decline in Recent Years:</b> After 2017, there was a steady decrease in greenhouse gas emissions, hitting a low around 2021. However, an uptick is visible again in 2023.</li>
                             <li><b>Variability:</b> The cyclical peaks and declines suggest that emissions are influenced by both policy measures and possibly natural or economic factors affecting industrial activities and land use.</li>
                         </ul>
@@ -49,7 +49,7 @@ function Forest() {
                 <ChartPanel class="forest-container" chartClass='forest-chart-wrapper' data={forestLossDrivers} options={forestLossDriversOptions}>
                     <p className='forest-content'>
                         <ul>
-                            <li><b>Commodity-driven Deforestation:</b> This is the largest contributor to greenhouse gas emissions in Indonesia, with clear peaks around 2005, 2013, and 2016, reaching over 18 million metric tons. Emissions from this source began to decline after 2017 but saw an increase again in 2023.</li>
+                            <li><b>Commodity-driven Deforestation:</b> This is the largest contributor to greenhouse gas emissions in Indonesia, with clear peaks around 2004, 2012, and 2016, reaching over 18 million metric tons. Emissions from this source began to decline after 2017 but saw an increase again in 2023.</li>
                             <li><b>Forestry:</b> Emissions from forestry activities are much lower compared to deforestation, remaining relatively stable with minor fluctuations over the years.</li>
                             <li><b>Shifting Agriculture:</b> Similar to forestry, emissions from shifting agriculture are relatively low and stable, showing minimal changes throughout the observed period.</li>
                             <li><b>Urbanization:</b> Urbanization contributes the least to emissions and shows a steady, low-level trend, indicating limited impact on overall greenhouse gas levels.</li>
@@ -61,17 +61,24 @@ function Forest() {
                 <section className='section-container'>
                     <h3 id='forest'><b>Importance of Biodiversity in Indonesian Ecosystems:</b></h3>
 
-                    <p id='forest-para'>Ecosystem Stability: Biodiversity supports ecosystem resilience, helping forests, oceans, and wetlands withstand environmental stresses and recover from disturbances.
-                    Economic and Cultural Value: Many communities depend on biodiversity for resources like food, medicine, and tourism; certain species hold cultural significance.
-                    Unique Habitats: Indonesia is home to globally significant biodiversity hotspots, such as rainforests and coral reefs, which host unique flora and fauna.
-                    Climate Regulation: Diverse ecosystems, like peatlands and mangroves, sequester carbon, mitigating climate change impacts.</p>
-
+                    <p id='forest-para'>
+                        <ul>
+                            <li>Ecosystem Stability: Biodiversity supports ecosystem resilience, helping forests, oceans, and wetlands withstand environmental stresses and recover from disturbances.</li>
+                            <li>Economic and Cultural Value: Many communities depend on biodiversity for resources like food, medicine, and tourism; certain species hold cultural significance.</li>
+                            <li>Unique Habitats: Indonesia is home to globally significant biodiversity hotspots, such as rainforests and coral reefs, which host unique flora and fauna.</li>
+                            <li>Climate Regulation: Diverse ecosystems, like peatlands and mangroves, sequester carbon, mitigating climate change impacts.</li>
+                        </ul>
+                    </p>
                     <h3 id='forest'><b>Impacts of Climate Change, Deforestation, and Pollution on Local Species:</b></h3>
 
-                    <p id='forest-para'>Climate Change: Alters habitats and affects breeding, migration, and feeding patterns; some species may struggle to adapt to rising temperatures and changing rainfall.
-                    Deforestation: Reduces habitats for endangered species (e.g., orangutans, Sumatran tigers), leading to population decline and fragmentation.
-                    Pollution: Marine species are particularly affected by plastic pollution and water contaminants, disrupting food chains and habitats.
-                    Biodiversity Loss: Combined pressures result in declining species diversity, threatening ecosystem functions and the survival of endemic species in Indonesia.</p>
+                    <p id='forest-para'>
+                        <ul>
+                            <li>Climate Change: Alters habitats and affects breeding, migration, and feeding patterns; some species may struggle to adapt to rising temperatures and changing rainfall.</li>
+                            <li>Deforestation: Reduces habitats for endangered species (e.g., orangutans, Sumatran tigers), leading to population decline and fragmentation.</li>
+                            <li>Pollution: Marine species are particularly affected by plastic pollution and water contaminants, disrupting food chains and habitats.</li>
+                            <li>Biodiversity Loss: Combined pressures result in declining species diversity, threatening ecosystem functions and the survival of endemic species in Indonesia.</li>
+                        </ul>                  
+                    </p>
 
                 </section>
                 <section className='popular-species'>
